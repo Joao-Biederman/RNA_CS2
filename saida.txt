@@ -1,0 +1,121 @@
+Time 0
+Brollan;Nao;Kevlar;USP-S;Sem granadas
+Jimpphat;Nao;Kevlar;USP-S;Sem granadas
+siuhy;Nao;;USP-S;Flashbang
+torzsi;Nao;Kevlar;USP-S;Sem granadas
+xertioN;Nao;Kevlar;DUAL-BERETTAS;Smoke
+apEX;Nao;Kevlar;GLOCK-18;Flashbang
+flameZ;Nao;;GLOCK-18;Flashbang, Smoke
+mezii;Nao;Kevlar;GLOCK-18;Sem granadas
+Spinx;Nao;Kevlar;GLOCK-18;Sem granadas
+ZywOo;Nao;Kevlar;GLOCK-18;Sem granadas
+Time 0
+Brollan;Nao;Kevlar + Helmet;M4A4;Flashbang, Smoke
+Jimpphat;Nao;Kevlar + Helmet;MP9;Flashbang, Smoke, HE
+siuhy;Nao;Kevlar + Helmet;MP9;Molotov, Smoke
+torzsi;Nao;Kevlar + Helmet;M4A1;Flashbang, Smoke
+xertioN;Sim;Kevlar + Helmet;MP9;Molotov, Smoke, HE
+apEX;Nao;Kevlar + Helmet;P250;Smoke, HE
+flameZ;Nao;Kevlar + Helmet;GLOCK-18;Flashbang
+mezii;Nao;Kevlar + Helmet;TEC-9;Flashbang, Smoke, HE
+Spinx;Nao;Kevlar + Helmet;TEC-9;Sem granadas
+ZywOo;Nao;Kevlar + Helmet;TEC-9;Flashbang, Smoke
+Time 1
+Brollan;Nao;Kevlar + Helmet;M4A4;Molotov, Flashbang, Smoke, HE
+Jimpphat;Sim;Kevlar + Helmet;M4A4;Molotov, Flashbang, Smoke, HE
+siuhy;Nao;Kevlar + Helmet;MP9;Molotov, Smoke, HE
+torzsi;Nao;Kevlar + Helmet;M4A1;Flashbang, Smoke, HE
+xertioN;Sim;Kevlar + Helmet;MP9;Molotov, Flashbang, Smoke, HE
+apEX;Nao;Kevlar;GLOCK-18;Flashbang
+flameZ;Nao;;GLOCK-18;Sem granadas
+mezii;Nao;;DESERT-EAGLE;Sem granadas
+Spinx;Nao;;DESERT-EAGLE;Sem granadas
+ZywOo;Nao;;DESERT-EAGLE;Sem granadas
+Time 0
+Brollan;Sim;Kevlar + Helmet;M4A4;Molotov, Flashbang, Smoke, HE
+Jimpphat;Sim;Kevlar + Helmet;MP9;Molotov, Flashbang, Smoke, HE
+siuhy;Sim;Kevlar + Helmet;M4A4;Molotov, Flashbang, Smoke, HE
+torzsi;Nao;Kevlar + Helmet;M4A1;Flashbang, Smoke, HE
+xertioN;Sim;Kevlar + Helmet;M4A4;Molotov, Flashbang, Smoke, HE
+apEX;Nao;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke
+flameZ;Nao;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke
+mezii;Nao;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke, HE
+Spinx;Nao;Kevlar + Helmet;AK-47;Molotov, Smoke, HE
+ZywOo;Nao;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke
+Time 0
+Brollan;Sim;Kevlar;M4A4;Molotov, Flashbang, Smoke, HE
+Jimpphat;Sim;Kevlar;M4A4;Molotov, Flashbang, Smoke, HE
+siuhy;Sim;Kevlar + Helmet;M4A4;Molotov, Flashbang, Smoke, HE
+torzsi;Nao;Kevlar + Helmet;M4A1;Flashbang, Smoke, HE
+xertioN;Nao;Kevlar;M4A4;Molotov, Flashbang, Smoke, HE
+apEX;Nao;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke, HE
+flameZ;Nao;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke
+mezii;Nao;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke, HE
+Spinx;Nao;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke, HE
+ZywOo;Nao;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke, HE
+Time 1
+Brollan;Sim;Kevlar;M4A4;Molotov, Flashbang, Smoke, HE
+Jimpphat;Sim;Kevlar + Helmet;M4A1;Molotov, Flashbang, Smoke, HE
+siuhy;Sim;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke, HE
+torzsi;Nao;Kevlar + Helmet;M4A1;Molotov, Flashbang, Smoke, HE
+xertioN;Nao;Kevlar + Helmet;M4A4;Molotov, Flashbang, Smoke, HE
+apEX;Nao;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke
+flameZ;Nao;Kevlar + Helmet;MAC-10;Molotov, Smoke
+mezii;Nao;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke, HE
+Spinx;Nao;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke, HE
+ZywOo;Nao;Kevlar + Helmet;AK-47;Smoke
+Time 0
+Brollan;Nao;Kevlar + Helmet;M4A4;Molotov, Flashbang, Smoke, HE
+Jimpphat;Sim;Kevlar + Helmet;M4A1;Molotov, Flashbang, Smoke, HE
+siuhy;Sim;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke, HE
+torzsi;Nao;Kevlar + Helmet;M4A1;Molotov, Flashbang, Smoke, HE
+xertioN;Sim;Kevlar + Helmet;M4A4;Molotov, Flashbang, Smoke, HE
+apEX;Nao;Kevlar;DESERT-EAGLE;Smoke
+flameZ;Nao;;GLOCK-18;Flashbang
+mezii;Nao;Kevlar;DESERT-EAGLE;Sem granadas
+Spinx;Nao;Kevlar + Helmet;AK-47;Sem granadas
+ZywOo;Nao;Kevlar;DESERT-EAGLE;Sem granadas
+Time 0
+Brollan;Sim;Kevlar;USP-S;Molotov, Flashbang, Smoke, HE
+Jimpphat;Sim;Kevlar + Helmet;M4A1;Molotov, Flashbang, Smoke, HE
+siuhy;Sim;Kevlar + Helmet;M4A4;Molotov, Flashbang, Smoke, HE
+torzsi;Nao;Kevlar + Helmet;AWP;Molotov, Flashbang, Smoke, HE
+xertioN;Nao;Kevlar;M4A4;Molotov, Flashbang, Smoke, HE
+apEX;Nao;Kevlar + Helmet;M4A4;Molotov, Flashbang, Smoke, HE
+flameZ;Nao;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke
+mezii;Nao;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke, HE
+Spinx;Nao;Kevlar + Helmet;AK-47;Molotov, Flashbang, Smoke, HE
+ZywOo;Nao;Kevlar + Helmet;M4A4;Molotov, Flashbang, Smoke, HE
+Time 0
+Brollan;Nao;Kevlar;USP-S;Sem granadas
+Jimpphat;Nao;Kevlar;USP-S;Sem granadas
+siuhy;Nao;No Armor;USP-S;Flashbang
+torzsi;Nao;Kevlar;USP-S;Sem granadas
+xertioN;Nao;Kevlar;DUAL-BERETTAS;Smoke
+apEX;Nao;Kevlar;GLOCK-18;Flashbang
+flameZ;Nao;No Armor;GLOCK-18;Flashbang, Smoke
+mezii;Nao;Kevlar;GLOCK-18;Sem granadas
+Spinx;Nao;Kevlar;GLOCK-18;Sem granadas
+ZywOo;Nao;Kevlar;GLOCK-18;Sem granadas
+Time 0
+Brollan;Nao;Kevlar + Helmet;M4A4;Flashbang, Smoke
+Jimpphat;Nao;Kevlar + Helmet;MP9;Flashbang, Smoke, HE
+siuhy;Nao;Kevlar + Helmet;MP9;Molotov, Smoke
+torzsi;Nao;Kevlar + Helmet;M4A1;Flashbang, Smoke
+xertioN;Sim;Kevlar + Helmet;MP9;Molotov, Smoke, HE
+apEX;Nao;Kevlar + Helmet;P250;Smoke, HE
+flameZ;Nao;Kevlar + Helmet;GLOCK-18;Flashbang
+mezii;Nao;Kevlar + Helmet;TEC-9;Flashbang, Smoke, HE
+Spinx;Nao;Kevlar + Helmet;TEC-9;Sem granadas
+ZywOo;Nao;Kevlar + Helmet;TEC-9;Flashbang, Smoke
+Time 1
+Brollan;Nao;Kevlar + Helmet;M4A4;Molotov, Flashbang, Smoke, HE
+Jimpphat;Sim;Kevlar + Helmet;M4A4;Molotov, Flashbang, Smoke, HE
+siuhy;Nao;Kevlar + Helmet;MP9;Molotov, Smoke, HE
+torzsi;Nao;Kevlar + Helmet;M4A1;Flashbang, Smoke, HE
+xertioN;Sim;Kevlar + Helmet;MP9;Molotov, Flashbang, Smoke, HE
+apEX;Nao;Kevlar;GLOCK-18;Flashbang
+flameZ;Nao;No Armor;GLOCK-18;Sem granadas
+mezii;Nao;No Armor;DESERT-EAGLE;Sem granadas
+Spinx;Nao;No Armor;DESERT-EAGLE;Sem granadas
+ZywOo;Nao;No Armor;DESERT-EAGLE;Sem granadas

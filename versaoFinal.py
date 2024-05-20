@@ -87,7 +87,7 @@ for i, partida in enumerate(partidas_txt):
         team_names = [name.split('-')[0] for name in team_names]
 
         # Encontrar as informações do round atual
-        current_round_div = soup.find_all('div', class_='round__teams')[round_number - 1]
+        current_round_div = soup.find_all('div', class_='round__teams')[round_number]
 
         team_1_div = current_round_div.find_all('div')[0]
         team_1_span = team_1_div.find('span')
@@ -107,13 +107,12 @@ for i, partida in enumerate(partidas_txt):
         #file_path = f"saida_round_{round_number}.txt"
         file_path = f"saida.txt"
         with open(file_path, "a") as file:
-            print(url_partidas[i], file=file)
-            print("-" * 50, file=file)
+            #print(url_partidas[i], file=file)
             # Verificar o vencedor do round atual e imprimir
             if team_1_icon_name:
-                print(f"{team_names[0]} vencedor do round {round_number}", file=file, end="\n")
+                print(f"Time 0", file=file, end="\n")
             elif team_2_icon_name:
-                print(f"{team_names[1]} vencedor do round {round_number}", file=file, end="\n")
+                print(f"Time 1", file=file, end="\n")
             else:
                 print(f"Nenhum vencedor encontrado no round {round_number}", file=file, end="\n")
 
@@ -138,9 +137,9 @@ for i, partida in enumerate(partidas_txt):
                     if kits_div.find('i', class_='o-icon--defuse-kit'):
                         kits = "Sim"
                     else:
-                        kits = "Não"
+                        kits = "Nao"
                 else:
-                    kits = "Não"
+                    kits = "Nao"
 
                 # se tem armor ou não
                 armor_div = row.find('div', class_='table-cell armor')
@@ -150,8 +149,8 @@ for i, partida in enumerate(partidas_txt):
                         armor = "Kevlar + Helmet"
                     elif 'o-icon--kevlar' in armor_icon.get('class'):
                         armor = "Kevlar"
-                    else:
-                        armor = "No Armor"
+                else:
+                    armor = "No Armor"
 
                 # verifica a arma
                 weapon_div = row.find('div', class_='table-cell weapon')
@@ -174,14 +173,13 @@ for i, partida in enumerate(partidas_txt):
 
                 grenades = ', '.join(grenades_list) if grenades_list else "Sem granadas"
                 
-                
-                print("-" * 50, file=file, end="\n")
+            
                 #print("Health", health, file=file, end="\n")
-                print("Player:", player, file=file, end="\n")
-                print("Kits:", kits, file=file, end="\n")
-                print("Armor:", armor, file=file, end="\n")
-                print("Weapon:", weapon_name, file=file, end="\n")
-                print("Grenades:", grenades, file=file, end="\n")
+                print( player +  ";" + kits + ";" + armor + ";" + weapon_name + ";" + grenades, file=file)
+                # print(";", kits, file=file)
+                # print(";", armor, file=file)
+                # print(";", weapon_name, file=file)
+                # print(";", grenades, file=file)
     # Fechar o driver do Selenium
     driver.quit()
 
