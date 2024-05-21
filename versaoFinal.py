@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException
 from bs4 import BeautifulSoup
 
 
@@ -11,6 +12,7 @@ from bs4 import BeautifulSoup
 # Abra o arquivo em modo de leitura usando with
 with open('links.txt', 'r') as arquivo:
     # Leia todas as linhas do arquivo
+    #campeonatoLinhas = []
     campeonatoLinhas = arquivo.readlines()
 
 # Crie uma lista para armazenar as campeonatoLinhas modificadas
@@ -38,10 +40,21 @@ for i, partida in enumerate(partidas_txt):
     # Pegue a URL base da partida correspondente
     url_base = url_partidas[i]
 
-    for round_number in range(1, len(rounds_partida) + 1):
 
-        # Configurando o driver
-        driver = webdriver.Chrome()
+    # Configurando o driver
+    driver = webdriver.Chrome()
+    # Esperar até que o botão "Ok" esteja disponível e clicar nele
+    url = f'{url_base}/round-{10}'
+    driver.get(url)
+    try:
+        ok_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, "//button[contains(text(),'Ok')]"))
+        )
+        ok_button.click()
+    except Exception as e:
+        print("Erro:", e)
+
+    for round_number in range(1, len(rounds_partida)):
 
         # URL da página que você deseja fazer scraping
         url = f'{url_base}/round-{round_number}'
@@ -49,18 +62,11 @@ for i, partida in enumerate(partidas_txt):
         # Carregar a página usando o driver do Selenium
         driver.get(url)
 
-        # Esperar até que o botão "Ok" esteja disponível e clicar nele
         try:
-            ok_button = WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, "//button[contains(text(),'Ok')]"))
-            )
-            ok_button.click()
-
             # Esperar até que o botão de reprodução esteja disponível
             play_button = WebDriverWait(driver, 20).until(
                 EC.element_to_be_clickable((By.XPATH, '//*[@id="widget-scoreboard"]/div[2]/div[3]/div/div/div[1]/button'))
             )
-
             # Clicar no botão de reprodução usando JavaScript
             driver.execute_script("arguments[0].click();", play_button)
             
@@ -87,6 +93,7 @@ for i, partida in enumerate(partidas_txt):
         team_names = [name.split('-')[0] for name in team_names]
 
         # Encontrar as informações do round atual
+        print(round_number);
         current_round_div = soup.find_all('div', class_='round__teams')[round_number]
 
         team_1_div = current_round_div.find_all('div')[0]
@@ -107,7 +114,7 @@ for i, partida in enumerate(partidas_txt):
         #file_path = f"saida_round_{round_number}.txt"
         file_path = f"saida.txt"
         with open(file_path, "a") as file:
-            #print(url_partidas[i], file=file)
+            print(url_partidas[i])
             # Verificar o vencedor do round atual e imprimir
             if team_1_icon_name:
                 print(f"Time 0", file=file, end="\n")
@@ -184,6 +191,3 @@ for i, partida in enumerate(partidas_txt):
     driver.quit()
 
 print("Scrapping finalizado!")
-
-
-
